@@ -72,9 +72,9 @@ const nextConfig = {
         source: '/(.*)?',
         headers: [
           {
-            key: 'X-Frame-Options',
-            value: 'SAMEORIGIN',
-          },
+          key: 'X-Frame-Options',
+          value: '', // Define o valor como vazio para não enviar o cabeçalho X-Frame-Options
+        },
         ],
       },
     ]
